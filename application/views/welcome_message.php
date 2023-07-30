@@ -4,14 +4,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Accessory_Web</title>
-
+	<title>Welcome to Web_Accessory</title>
 </head>
 <body>
 
 <div id="container">
-	<h1>Accessory_Web</h1>
+	<h1>Web_Accessory</h1>
 
+	
 </div>
 
 </body>
