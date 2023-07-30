@@ -1,6 +1,17 @@
 <div class="container">
     <h2>Login Admin</h2>
-   
+   <?php
+   if($this->session->flashdata('success')){
+    ?>
+    <div class="alert alert-success"><?php echo $this->session->flashdata('success') ?></div>
+   <?php
+  }else{
+    ?>
+    <div class="alert alert-danger"><?php echo $this->session->flashdata('error') ?></div>
+    <?php
+  
+  }
+   ?>
 <form action="<?php echo base_url('login-user')?>" method="POST"> 
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
